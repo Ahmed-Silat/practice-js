@@ -303,14 +303,24 @@
 // }
 
 
-var correctPassword = 'ahmed'
-var checkPassword = prompt("Enter your Password")
-if (checkPassword === '') {
-    alert("Please enter your password")
-}
-else if (correctPassword === checkPassword) {
-    alert("Correct!")
+// var correctPassword = 'ahmed'
+// var checkPassword = prompt("Enter your Password")
+// if (checkPassword === '') {
+//     alert("Please enter your password")
+// }
+// else if (correctPassword === checkPassword) {
+//     alert("Correct!")
+// }
+// else {
+//     alert("Incorrect password")
+// }
+
+
+var greeting;
+var hour = 13;
+if (hour < 18) {
+    greeting = "Good day";
 }
 else {
-    alert("Incorrect password")
+    greeting = "Good evening";
 }
