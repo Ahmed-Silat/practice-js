@@ -316,14 +316,14 @@
 // }
 
 
-var greeting;
-var hour = 13;
-if (hour < 18) {
-    greeting = "Good day";
-}
-else {
-    greeting = "Good evening";
-}
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+// }
+// else {
+//     greeting = "Good evening";
+// }
 
 
 var time = Number(prompt("Enter time in hundred hours format"))
