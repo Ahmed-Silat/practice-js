@@ -289,6 +289,16 @@
 // }
 
 
-var character = prompt("Enter the character")
+// var character = prompt("Enter the character")
+// var result = checkVowel(character)
+// alert(result)
+// function checkVowel(item) {
+//     if (character === 'a' || character === 'A' || character === 'e' || character === 'E'
+//         || character === 'i' || character === 'I' || character === '0' || character === 'O'
+//         || character === 'u' || character === 'U') {
+//         // alert("vowel")
+//         return true
+//     }
+//     return false
+// }
 
-if(character==='a'||character==='e'||character==='i')
