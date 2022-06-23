@@ -302,3 +302,15 @@
 //     return false
 // }
 
+
+var correctPassword = 'ahmed'
+var checkPassword = prompt("Enter your Password")
+if (checkPassword === '') {
+    alert("Please enter your password")
+}
+else if (correctPassword === checkPassword) {
+    alert("Correct!")
+}
+else {
+    alert("Incorrect password")
+}
